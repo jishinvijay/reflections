@@ -1,0 +1,28 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+ It helped, but had to strain a bit to search for the word or character that was 
+ causing the difference, when the lines were too long.
+
+ How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+ Having easy access to the entire history enables you to look at the changes you have been making and can 
+ help when you would want to see some change that you had previously made, but then overridden with some 
+ other changes later.
+
+ What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+ Pros:	-- We have the liberty of committing when we are comfortable (like for a given logic change or addition).
+ 		-- Avoids too frequent commits or too large commits, which may not be necessary.
+ Cons: 	-- We may miss to commit at a point that should have done, and later may not be able to revert back. Auto commit may have taken care of such corner cases.
+
+ Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+ - This is so because there may be multiple files that may be affected with a particular logic or code change. In such cases, its better to have the all the related changed components tracked together than separate.
+
+ How can you use the commands git log and git diff to view the history of files?
+ - git log command gives us a list of all changes made and committed in the repository, along with their Commit ID.
+ - git diff command can be used to compare the changes made between two commits, by providing their commit IDs.
+
+ How might using version control make you more confident to make changes that could break something?
+ - Version control enables us to revert back to a version that worked fine, even if we accidently introduced a bug while coding.
+
+ Now that you have your workspace set up, what do you want to try using Git for?
+ - I want to try Git to create commits and try to play around with it to checkout and revert back changes, and also explore more on git.
+ 
