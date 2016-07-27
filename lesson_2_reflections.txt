@@ -3,3 +3,16 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 - Staging area is a temporary space, that lets you add only those files that you want to group into one commit. This way, you dont need to include files that you feel are not relevant or changed with this commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+-- using the "git diff" command with no parameters, to check difference between the files in the working directory and staging area. one can also use "git diff --staged" command to compare the staged components with the repository latest commits.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+-- when you want to do some changes in parallel with the existing code - like making another parallel version. for ex. an italian version of your product, or a easy or difficult version of your game.
+
+How do the diagrams help you visualize the branch structure?
+- the diagrams let us understand which commit is the parent of which and which are the ones that can be reachable or not reachable.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- Merging two branches together allows you to update or modify one branch, with the changes done in the other branch. We represent it in the graph as being the child of the two branches we are merging, because the new branch is sourced from changes in the parent branches.
+
