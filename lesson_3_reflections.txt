@@ -9,3 +9,5 @@ Describe the differences between forks, clones, and branches. When would you use
   clones - to "copy" a repository from GitHub to your local machine as Origin.
   branches - to make another version of a committed version of your code, and work on it in parallel, leaving the copied version as it is.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+- it is beneficial sometimes when you need a copy of the latest changes on GitHub, into your local, but not merging to the latest branch you have - specially when you want to go offline and need time to review the new changes on the GitHub, before merging into your latest code.
